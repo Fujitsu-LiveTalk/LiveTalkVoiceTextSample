@@ -1,0 +1,2 @@
+# VoiceTextSample
+HOYA VoiceText Sample
