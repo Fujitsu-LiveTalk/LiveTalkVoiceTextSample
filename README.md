@@ -1,5 +1,6 @@
 # LiveTalkVoiceTextSample
-LiveTalk常時ファイル出力で出力したテキストを、HOYA VoiceText を使って音声合成出力するサンプルです。
+LiveTalk常時ファイル出力で出力したテキストを、HOYA VoiceText を使って音声合成出力するサンプルです。  
+本サンプルコードは、.NET Core 2.2で作成しています。コードレベルでは.NET Framework 4.6と互換性があります。
 
 # サンプルコードの動き
 サンプルコード動作を簡単に説明すると次のような動作をします。  
