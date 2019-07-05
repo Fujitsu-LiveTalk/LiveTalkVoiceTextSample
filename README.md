@@ -10,7 +10,7 @@ LiveTalk常時ファイル出力で出力したテキストを、HOYA VoiceText 
 
 
 # 事前準備
-1. VoiceText Web API(https://cloud.voicetext.jp/webapi)[https://cloud.voicetext.jp/webapi]の無料利用登録を行います。
+1. VoiceText Web API [https://cloud.voicetext.jp/webapi](https://cloud.voicetext.jp/webapi) の無料利用登録を行います。
 2. 登録したメールアドレスにAPI キーが送られてきます。
 3. 送られてきたAPIキーをユーザIDとしてサンプルコードに指定します。パスワードは指定しません。
 4. インターネットとの接続がPROXY経由の場合、PROXYサーバーや認証情報を設定してください。
