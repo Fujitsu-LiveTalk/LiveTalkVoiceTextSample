@@ -15,7 +15,7 @@ namespace LiveTalkVoiceTextSample
 {
     class Program
     {
-        static FileCollaboration FileInterface;
+        static LiveTalk.FileCollaboration FileInterface;
         static BlockingCollection<byte[]> AudioQueue = new BlockingCollection<byte[]>();
         static CancellationTokenSource TokenSource = new CancellationTokenSource();
 
@@ -31,7 +31,7 @@ namespace LiveTalkVoiceTextSample
                 param[0] = args[0];
             }
             Console.WriteLine("InputCSVFileName  :" + param[0]);
-            FileInterface = new FileCollaboration(param[0], "");
+            FileInterface = new LiveTalk.FileCollaboration(param[0], "");
 
             // ファイル入力(LiveTalk常時ファイル出力からの入力)
             FileInterface.RemoteMessageReceived += async (s) =>
