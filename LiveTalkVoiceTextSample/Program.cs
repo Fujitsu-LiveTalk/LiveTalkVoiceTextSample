@@ -90,7 +90,7 @@ namespace LiveTalkVoiceTextSample
             {
                 System.IO.File.Delete(param[0]);
             }
-            FileInterface.WatchFileSart();
+            FileInterface.WatchFileStart();
 
             // 処理終了待ち
             var message = Console.ReadLine();
